@@ -1,2 +1,2 @@
 # tkuyper.github.io
-Personal Site
+Repo for my personal site: http://tkuyper.github.io
