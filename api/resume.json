@@ -1,0 +1,90 @@
+{
+  "avatar": "http://gravatar.com/avatar/a6e7eebf22f4b94752cdda93181b7428",
+  "firstName": "Thomas",
+  "lastName": "Kuyper",
+  "address": ["Omaha, NE","United States of America","Earth"],
+  "email": "thomaskuyper at gmail.com",
+  "findMeLinks": [
+      {
+        "linkText": "LinkedIn",
+        "url": "https://www.linkedin.com/in/thomas-kuyper-9a43b433"
+      },
+      {
+        "linkText": "Cpan",
+        "url": "http://metacpan.org/author/TKUYPER"
+      },
+      {
+        "linkText": "Github",
+        "url": "https://github.com/tkuyper"
+      }
+  ],
+  "skills": [
+    {
+      "name": "Perl",
+      "skill-level": "Advanced",
+      "experience": "6 Years",
+      "skills": [
+        "DBI/DBIx",
+        "Moose",
+        "XML::Twig",
+        "Catalyst Web Framework",
+        "Template Toolkit"
+      ],
+      "website": "http://metacpan.org/author/TKUYPER",
+      "repositories": [
+          {
+            "linkText": "Plack-Middleware-Debug-CatalystSession",
+            "url": "https://github.com/tkuyper/Plack-Middleware-Debug-CatalystSession"
+          }
+      ]
+    },
+    {
+      "name": "C++",
+      "skill-level": "Intermediate",
+      "experience": "6 Years",
+      "skills": [
+        "C++11/14",
+        "SDL",
+        "Boost",
+        "Multi-threading"
+      ]
+    },
+    {
+      "name": "Javascript",
+      "skill-level": "Advanced",
+      "experience": "8 Years",
+      "skills": [
+        "jQuery",
+        "Bootstrap",
+        "AngularJS",
+        "JSON"
+      ]
+    },
+    {
+      "name": "SQL",
+      "skill-level": "Advanced",
+      "experience": "8 Years",
+      "skills": [
+        "MariaDB/Mysql",
+        "MSSQL",
+        "Oracle DB"
+      ]
+    },
+    {
+      "name": "Linux CLI",
+      "skill-level": "Advanced",
+      "experience": "10 Years",
+      "skills": [
+        "Git",
+        "Bash",
+        "Awk",
+        "Sed"
+      ]
+    },
+    {
+      "name": "Java",
+      "skill-level": "Beginner",
+      "experience": "1 Year"
+    }
+  ]
+}
