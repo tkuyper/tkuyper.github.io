@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl-NL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoe laat is het?</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body class="dark">
+  <div class="app">
+    <div class="box">
+      <p class="vragen">Hoe laat is het?</p>
+      <p id="displayed-time" class="digits">24.60</p>
+      <p>
+        <input type="checkbox" name="speelsoort" id="speelsoort"/>
+        <label for="">Speel met gesproken tijd</label>
+      </p>
+      <p>
+        Het is <input id="antwoord"><br/>
+        <span id="error"></span>
+      </p>
+      <p>
+        <button type="button" id="check-answer">Check Answer</button>
+      </p>
+      <p class="streak">Streak: <span id="streak-counter">0</span></p>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.dark {
+  background-color: #212121;
+  color: #F0F0F0;
+}
+.light input {
+  border-color: #212121;
+}
+.dark input, .dark button {
+  background-color: #212121;
+  color: #F0F0F0;
+  border-color: #D0D0D0;
+}
+.box {
+  padding: 0.5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+.light .box {
+  border-color: #212121;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.dark .box {
+  border-color: #D0D0D0;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box p {
+  text-align: center;
+}
+p.vragen {
+  font-size: 1.25rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+p#displayed-time.digits {
+  font-size: 3rem;
+}
+p#displayed-time.woords {
+  font-size: 2rem;
+}
+p#displayed-time {
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+input#antwoord {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 0.1rem;
+  min-width: 50px;
+}
+#check-answer {
+  font-size: 1.2rem;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 50px;
+}
+#check-answer:hover {
+  border-width: 3px;
+  padding: 4px;
+}
+#check-answer:active {
+  border-width: 3px;
+  padding: 4px;
+  margin-left: 0.05rem;
+  margin-top: 0.05rem;
+  margin-right: -0.05rem;
+  margin-bottom: -0.05rem;
+}
+.dark .success {
+  color: #30FF30;
+}
+.dark .failure {
+  color: #FF3030;
+}
